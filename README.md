@@ -40,14 +40,8 @@ If you encounter any issues with the code or if the provided link becomes inacce
 
 
 # Visual Results
-
-
-
-![可视化](fig\2.svg)
-
-
-
-![可视化](fig\3.svg)
+!(https://raw.githubusercontent.com/1024AILab/ClothChanging-ReID/922e67159e36e1298d6117921ef498f7e3126741/fig/2.svg)
+!(https://raw.githubusercontent.com/1024AILab/ClothChanging-ReID/922e67159e36e1298d6117921ef498f7e3126741/fig/3.svg)
 
 If you have any questions, feel free to contact us through github.
 
