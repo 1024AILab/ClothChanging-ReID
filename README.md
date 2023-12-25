@@ -39,5 +39,15 @@ If you encounter any issues with the code or if the provided link becomes inacce
 
 
 
+# Visual Results
+
+
+
+![可视化](fig\2.svg)
+
+
+
+![可视化](fig\3.svg)
+
 If you have any questions, feel free to contact us through github.
 
