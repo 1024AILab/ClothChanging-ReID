@@ -34,8 +34,12 @@ If you encounter any issues with the code or if the provided link becomes inacce
 
 - Start training by executing the following commands.
 
-1. For LTCC dataset: `python -m torch.distributed.launch --nproc_per_node=2 --master_port 12345 main.py --dataset ltcc --cfg configs/res50_cels_cal.yaml --gpu 0,1 --spr 0 --sacr 0.05 --rr 1.0`
-2. For PRCC dataset: `python -m torch.distributed.launch --nproc_per_node=2 --master_port 12345 main.py --dataset prcc --cfg configs/res50_cels_cal.yaml --gpu 2,3 --spr 1.0 --sacr 0.05 --rr 1.0`
+
+1. For LTCC dataset:
+`python -m torch.distributed.launch --nproc_per_node=2 --master_port 12345 main.py --dataset ltcc --cfg configs/res50_cels_cal.yaml --gpu 0,1,2,3 --spr 0 --sacr 0.05 --rr 1.0`
+
+2. For PRCC dataset:
+`python -m torch.distributed.launch --nproc_per_node=2 --master_port 12345 main.py --dataset prcc --cfg configs/res50_cels_cal.yaml --gpu 0,1,2,3 --spr 1.0 --sacr 0.05 --rr 1.0`
 
 
 
